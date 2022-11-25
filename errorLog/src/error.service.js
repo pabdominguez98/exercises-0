@@ -9,8 +9,8 @@ const __timerDelay = 1;        // Timer delay in minutes;
 let __tmpErrorCount = 0;
 let __timerStatus = false;
 
-let logFullError = process.env.LOG_HARD_ERR || true;  // Decides if the log is the whole error object or just the error message
-let logErrorInConsole = process.env.LOG_ERR_CONSOLE || false; // Decides if the log is the whole error object or just the error message
+let logFullError = process.env.LOG_HARD_ERR == 'false' ? false : true;  // Decides if the log is the whole error object or just the error message
+let logErrorInConsole = process.env.LOG_ERR_CONSOLE == 'true' ? true : false; // Decides if the log is the whole error object or just the error message
 
 /**
  * Log Error
