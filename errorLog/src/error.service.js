@@ -4,7 +4,7 @@ const path = require('path');
 
 const __logFolderName = 'log';  //We could extract the name of the folder and set it externally.
 
-const __timerDelay = 10;        // Timer delay in minutes;
+const __timerDelay = 1;        // Timer delay in minutes;
 
 let __tmpErrorCount = 0;
 let __timerStatus = false;
