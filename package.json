@@ -1,0 +1,15 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Exercises",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabdominguez98/exercises-0.git"
+  },
+  "author": "Pablo Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabdominguez98/exercises-0/issues"
+  },
+  "homepage": "https://github.com/pabdominguez98/exercises-0#readme"
+}
