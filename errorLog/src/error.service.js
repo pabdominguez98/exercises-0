@@ -27,7 +27,7 @@ const logError = (errorData) => {
         try{
             fs.mkdirSync(path.resolve(__dirname, `../${__logFolderName}`));
         }catch(err){
-            throw new Error(err); // We can't use logError function here :(
+            console.error(new Error(err)); // We can't use logError function here :(
         }     
     }
 
