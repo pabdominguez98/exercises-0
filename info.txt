@@ -1,5 +1,2 @@
 I didn't have the need to declare asynchronous functions in those 3 exersices.
 I was careful that in all 3 cases the methods or functions were not blocking.
-
-
-
