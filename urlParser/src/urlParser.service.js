@@ -22,7 +22,7 @@ const urlParser = (urlFormat, urlString) => {
 
     const urlParams = checkForUrlParams(urlFormat, urlString);
 
-    console.log({...urlParams, ...checkQuery})
+    return {...urlParams, ...checkQuery}
     
 }   
 
